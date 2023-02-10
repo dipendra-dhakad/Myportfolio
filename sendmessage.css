@@ -1,0 +1,45 @@
+.send{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-content: center;
+    width: 500px;
+    height: 500px;
+    border: 3px  solid red;
+    margin: auto;
+}
+
+.columnn p H2{
+    text-align: center;
+}
+
+.columnn .row{
+    font-size: 18px;
+    color: crimson;
+    display: flex;
+    margin-bottom: 54px;
+
+}
+
+.columnn .row .info{
+    margin: 20px;
+    color: black;
+    margin-left: 20px;
+}
+
+.columnn .row i{
+    font-size: 50px;
+}
+
+i{
+    margin: auto;
+}
+
+h3{
+    margin: 0px;
+    font-size: 30px;
+}
+
+.sub-title{
+    font-size : 20px;
+}

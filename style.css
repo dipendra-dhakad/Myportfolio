@@ -1,0 +1,1048 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&family=Ubuntu:ital,wght@0,300;0,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    font-family: 'ubuntu', sans-serif;
+    padding: 15px 0;
+    transition: all 0.3s ease;
+    background-color: crimson;
+}
+
+
+
+
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .menu li a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 25px;
+    transition: color 0.3 ease;
+}
+
+.navbar .menu li a:hover {
+
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+
+
+
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline;
+}
+
+.navbar .logo a {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+
+}
+
+.navbar .logo a span {
+    color: #111;
+    font-weight: 900;
+}
+
+.home {
+    display: flex;
+
+    background-image: url("finale.jpg");
+    background-size: 100% 100%;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    min-height: 500px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.home img {
+    height: 50px;
+    width: 50x;
+    flex-wrap: wrap;
+    display: block;
+}
+
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+
+
+.home .home-content .text-1 {
+    font-size: 27px;
+}
+
+.home .home-content .text-2 {
+    font-size: 65px;
+    font-weight: 600;
+    margin-left: -4px;
+}
+
+.home .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span {
+    color: crimson;
+    font-weight: 800;
+}
+
+.home .home-content a {
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    margin-left: 10px;
+}
+
+.home .home-content a:hover {
+    color: #fff;
+    background: none;
+}
+
+.menu-btn {
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+
+}
+
+section {
+    padding: 100px 0;
+}
+
+.about {
+    font-family: 'Poppins' sans-serif;
+
+
+
+}
+
+.about .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+.about .title {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+.about .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+
+}
+
+.about .title::after {
+    content: "who I am";
+
+    font-size: 20px;
+    color: crimson;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    padding: 5px;
+    background: #fff;
+    transform: translateX(-50%);
+
+}
+
+.about .about-content {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about .about-content .left {
+    width: 45%;
+    margin-left: 19px;
+}
+
+
+.about .about-content .left img {
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.about .about-content .right {
+    width: 51%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-right: 25px;
+
+
+}
+
+.about .about-content .right p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+.about .about-content .right h1 {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: auto;
+
+}
+
+.about .about-content .right span {
+    color: crimson;
+}
+
+.about .about-content .right a {
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    padding: 3px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+
+}
+
+.about .about-content .right a:hover {
+    color: #111;
+    background: none;
+
+}
+
+
+.education .title{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    
+    padding-bottom: 20px;
+    margin-top: -35px;
+}
+
+
+.education .box-container{
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+    padding: 0rem 104px
+
+
+
+}
+
+.education .box-container .box{
+
+  width: 27rem;
+
+  margin: 4rem 1rem;
+
+  padding-left: 4rem;
+
+  border-left: 2rem solid crimson;
+
+  position: relative;
+
+}
+
+.education .box-container .box span{
+
+    font-size: 2opx;
+    background: rgb(100 72 72);
+    color: white;
+    border-radius: 5rem;
+    padding: 0.5rem 2.5rem;
+
+}
+
+.education .box-container .box h3{
+
+    font-size: 25px;
+    color: rgb(53, 1, 1);
+    padding: 6px 8px;
+    margin-top: 24px;
+    width: 150px;
+    border: 4px solid crimson;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    border-radius: 6px;
+
+
+}
+
+.education .box-container .box p{
+
+    font-size: 1.4rem;
+
+    color: rgb(22, 30, 76);
+
+    padding: 1rem 0;
+
+}
+
+.education .box-container .box i{
+
+    position: absolute;
+
+    top: -1.5rem; left: -2.5rem;
+
+    height: 5rem;
+
+    width: 5rem;
+
+    border-radius: 50%;
+
+    line-height: 5rem;
+
+    text-align: center;
+
+    font-size: 3rem;
+
+    color: #111;
+
+    background: var(--yellow);
+
+    
+
+}
+
+.education .box-container .box p h2{
+
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skills .title {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    content: "";
+
+
+}
+
+.skills .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+
+}
+
+.skills .title::after {
+    content: "what I know";
+
+    font-size: 20px;
+    color: crimson;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    padding: 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+.skills .Skills-content .text {
+
+    font-weight: 799;
+    display: flex;
+
+}
+
+
+
+.skills .linee {
+    margin-left: 0px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-bottom: 12px;
+
+}
+
+.skills .Skills-content {
+    width: calc(90% - -60px);
+    display: flex;
+    font-size: 17px;
+    font-weight: 600;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.skills .Skills-content .left {
+
+
+    font-family: 'Poppins', sans-serif;
+    height: 200px;
+    width: 800px;
+    margin-right: 15px;
+
+
+}
+
+.skills .Skills-content .left p {
+    text-align: justify;
+
+}
+
+.skills .Skills-content .left a {
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    padding: 3px 20px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+
+}
+
+.skills .Skills-content .left a:hover {
+    color: #111;
+    background: none;
+}
+
+
+
+.skills .Skills-content .right {
+
+    font-size: 15px;
+    margin: -20px 20px 20px 40px;
+    font-family: 'Poppins', sans-serif;
+    width: 500px;
+    height: 200px;
+
+    font-weight: 500;
+
+}
+
+.skills .Skills-content .right .bars {
+
+    margin-bottom: 13px;
+}
+
+.skills .Skills-content .right .bars .info {
+
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.skills .Skills-content .right span {
+
+    font-weight: 700;
+}
+
+.skills .Skills-content .right .line {
+    height: 5px;
+    width: 100%;
+    background-color: lightgrey;
+    position: relative;
+}
+
+.skills .Skills-content .right .line::before {
+    content: " ";
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: crimson;
+
+}
+
+.skills .Skills-content .right .html::before {
+    width: 90%;
+}
+
+.skills .Skills-content .right .css::before {
+    width: 60%;
+}
+
+.skills .Skills-content .right .javascript::before {
+    width: 30%;
+}
+
+.skills .Skills-content .right .c::before {
+    width: 50%;
+}
+
+.skills .Skills-content .right .cpp::before {
+    width: 50%;
+}
+
+.skills .Skills-content .right .java::before {
+    width: 10%;
+}
+
+.contact .title {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    content: "";
+}
+
+.contact .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
+.contact .title::after {
+    content: "get in touch";
+    font-size: 20px;
+    color: crimson;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    padding: 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+.contact {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.contact .contact-content .column {
+    width: calc(50% - 30px);
+
+}
+
+.contact .contact-content .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact .contact-content .left p {
+    text-align: justify;
+}
+
+.contact .contact-content .left .icons {
+    margin: 10px 0px;
+}
+
+.contact .contact-content .row {
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+
+.contact .contact-content .row .info {
+    margin-left: 30px;
+}
+
+
+.contact .contact-content .row i {
+    font-size: 25px;
+    color: crimson;
+}
+
+.contact .contact-content .info .head {
+    font-weight: 500;
+}
+
+.contact .contact-content .info .sub-title {
+    color: #333;
+}
+
+.contact .right form .fields {
+    display: flex;
+
+}
+
+.contact .right form .name {
+    margin-right: 15px;
+}
+
+.contact .right form .email {
+    margin-left: 10px;
+}
+
+.contact .right form .textarea {
+    height: 80px;
+}
+
+.contact .right form .field,
+.contact .right form .fields .field {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+
+.contact .right form .field input,
+.contact .right form .textarea textarea {
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins' sans-serif;
+}
+
+.contact .right form .textarea textarea {
+
+    padding-top: 11px;
+    resize: none;
+    height: 85px;
+}
+
+.contact .contact-content .right a {
+      display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 15px;
+    padding: 0px 23px;
+    margin-top: 37px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    height: 26px;
+    width: 21%;
+
+}
+
+.contact .contact-content .right a:hover {
+    color: #111;
+    background: none;
+
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    justify-content: space-between;
+
+}
+
+.footer .creater {
+    padding-right: 5%;
+    padding-top: 15px
+}
+
+.footer .creater a {
+    color: crimson;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive media query */
+
+@media (max-width: 1104px) {
+    .home .max-width {
+        margin-left: 0px;
+    }
+
+    .about .about-content .left img {
+        height: 350px;
+        width: 350px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+}
+
+
+
+
+
+@media (max-width: 991px) {
+    .max-width {
+        padding: 0 50px;
+    }
+}
+
+
+
+@media (max-width: 947px) {
+    .menu-btn {
+        display: block;
+        z-index: 999;
+
+    }
+
+    .menu-btn i.active:before {
+        content: "\f00d";
+
+    }
+
+    .max-width {
+
+        padding: 0 50px;
+
+    }
+
+    .navbar .menu {
+        position: fixed;
+        background: #111;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+
+    .navbar .menu.active {
+        left: 0;
+    }
+
+    .navbar .menu li {
+        display: block;
+
+
+    }
+
+    .navbar .menu li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 65px;
+
+    }
+
+    .home .home-content .text-3 {
+        font-size: 40px;
+        margin: 5px 0;
+    }
+
+    .home .home-content a {
+
+        font-size: 23px;
+        padding: 10px 30px;
+
+    }
+
+    .about {
+        display: flex;
+        margin-bottom: -80px;
+    }
+
+    .about .about-content .left {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about .about-content .left img {
+        height: 450px;
+        width: 350px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+        display: flex;
+        padding-bottom: 50px;
+    }
+
+    .about .about-content .right {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        justify-items: center;
+    }
+
+    .max-width {
+        width: 100%;
+    }
+
+    .about .about-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about .about-content .right h1 {
+        font-size: 35px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: auto;
+        padding: auto;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .about .about-content .column {
+        width: 100%;
+    }
+
+    .skills .Skills-content {
+        flex-wrap: wrap;
+    }
+
+    .skills .Skills-content .right {
+        font-size: 15px;
+        margin: 50px 20px 20px 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 500px;
+        height: 200px;
+        font-weight: 500;
+    }
+
+    .contact .contact-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: justify;
+
+    }
+
+    .contact .contact-content .left {
+        width: 100%;
+        font-weight: 700;
+    }
+
+    .contact .contact-content .right {
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 690px) {
+    .home {
+        background-image: url("https://wallpapercave.com/wp/wp4716082.jpg");
+
+    }
+
+    .home .home-content .text-2 {
+        font-size: 60px;
+
+    }
+
+    .home .home-content .text-3 {
+        font-size: 32px;
+
+    }
+
+    .max-width {
+
+        padding: 0 23px;
+
+    }
+
+    .home .home-content a {
+
+        font-size: 20px;
+        padding: 8px 20px;
+
+    }
+}
+
+@media (max-width: 500px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .home {
+        width: 100%;
+        padding: 0;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 50px;
+
+    }
+
+    .home .home-content .text-3 {
+        font-size: 27px;
+
+    }
+
+
+    .contact .right form .button {
+        margin-top: 50px;
+        height: 48px;
+        width: 41%;
+    }
+
+    .skills .Skills-content .right {
+        font-size: 15px;
+        margin: 150px 20px 20px 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 500px;
+        height: 200px;
+        font-weight: 500;
+    }
+     .contact .contact-content .right a {
+        display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 15px;
+    padding: 0px 40px;
+    padding-right: 66px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    height: 26px;
+    
+    
+    }
+
+}

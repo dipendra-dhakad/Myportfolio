@@ -1,0 +1,32 @@
+.box{
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+ H2{
+    font-size: 30px;
+ }
+.iconss{
+    justify-content: left;
+}
+.row{
+    padding: 20px;
+    display: flex;
+}
+
+.row .fa{
+    font-size: 30px;
+    display: inline-flex;
+    display: list-item;
+    padding-right: 20px;
+    color: crimson;
+}
+
+.head{
+    font-size: 20px;
+}
