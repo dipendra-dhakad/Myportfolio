@@ -116,7 +116,7 @@ html{
 
 .home .home-content a {
   display: inline-block;
-    background: rgb(19 83 16);
+    background: rgb(108 49 135 / 59%);
     color: #fff;
     font-size: 25px;
     padding: 10px 30px;
@@ -438,7 +438,8 @@ section {
     content: "what I know";
 
     font-size: 20px;
-    color:rgb(197 20 220);
+    color:rgb(236 71 71);
+    height: 50px;;
     position: absolute;
     bottom: -12px;
     left: 50%;
