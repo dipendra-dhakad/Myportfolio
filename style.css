@@ -441,7 +441,7 @@ section {
     color:rgb(236 71 71);
     height: 50px;;
     position: absolute;
-    bottom: -12px;
+    bottom:  -40px;
     left: 50%;
     padding: 5px;
     background: #fff;
@@ -721,6 +721,10 @@ section {
     width: 21%;
 
 }
+
+
+
+
 
 .contact .contact-content .right a:hover {
     color: #111;
